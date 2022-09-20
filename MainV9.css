@@ -1,0 +1,2816 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #808080;
+    background-color: #8dc63f;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+form{
+    height:98%;
+    background-color:white;
+    overflow-y:scroll;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.divHeader {
+    position: relative;
+    width: 100%;
+    background-color: #0055a5;
+    height: 50px;
+    text-align: left;
+}
+
+    .divHeader img {
+        height: 50px;
+        /*margin-left:10%;*/
+    }
+
+.divMain {
+    position: relative;
+    width: 100%;
+}
+
+.divFooter {
+    width: 100%;
+}
+
+.largeOuterDiv {
+    position: relative;
+    background-color: cyan;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.backgroundWhite {
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.topLeftOuterDiv {
+    position: relative;
+    float: left;
+    /*width: calc(100% - 550px);*/
+    width: 20%;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.topLeftOuterDivNPS {
+    width: 45%;
+}
+
+.topLeftOuterDivEmpNPS {
+    padding-bottom: 40px;
+}
+
+.topLeftOuterDivUsers {
+    width: 72%;
+}
+
+.topLeftOuterDivButton {
+    width: 200px;
+}
+
+.topMiddleOuterDivButton {
+    width: 200px;
+}
+
+.topMiddleOuterDiv {
+    position: relative;
+    float: left;
+    /*width: calc(100% - 550px);*/
+    width: 20%;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.topRightOuterDiv {
+    position: relative;
+    float: left;
+    /*width:300px;*/
+    width: 15%;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+.topRightOuterButtonDiv {
+    position: relative;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+    .topRightOuterButtonDiv a {
+        /*font-family:Oswald,'Trebuchet MS',sans-serif;*/
+        text-decoration: none;
+        color: #fff;
+    }
+
+.topRightOuterDivLanding {
+    margin-left: 20px;
+    width: 20%;
+}
+
+.tableData {
+    border-collapse: collapse;
+    border: 1px solid red;
+    width: 100%;
+    margin: 10px;
+}
+
+.tableData, th, td {
+    border: 0px;
+    padding: 5px;
+    /*font-family: Oswald,'Trebuchet MS',sans-serif;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#divRptDailyRoute {
+    width: 500px;
+    margin: 10px;
+}
+
+#divDailyRouteStartDate, #divDailyRouteEndDate {
+}
+
+    #divDailyRouteStartDate input, #divDailyRouteEndDate input {
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+    text-decoration: none;
+    background-color: #0055a5;
+    color: #fff !important;
+    /*font-family:Oswald,'Trebuchet MS',sans-serif;*/
+    text-transform: uppercase;
+    /*font-size: 12px;*/
+    font-weight: bold;
+    min-width: 165px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+}
+
+.gridbutton {
+    min-width: 60px;
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 0px;
+}
+
+.editUsersButton {
+    width: 80px;
+}
+
+.reportButton {
+    min-width: 60px;
+    width: 90px;
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* ------------------------------------------- */
+/* ----------- TopNav User Control ----------- */
+/* ------------------------------------------- */
+/*
+.topNavOuterDiv
+{
+	width:970px;
+	height:60px;
+	background-color:#f3f3f3;
+}
+*/
+
+
+
+
+
+.navbar-header {
+    height: 40px;
+    background-color: #0055a5;
+    text-align: left;
+    padding-left: 195px;
+}
+
+    .navbar-header a img {
+        top: 0px;
+        left: 0px;
+        height: 40px;
+        position: static;
+    }
+
+.mainBodyArea img {
+    width: 100%;
+}
+
+.homeLoginBlock {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: 270px;
+    height: 260px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    background-color: #808080;
+}
+
+
+.navbar-footer {
+    height: 40px;
+    background-color: #8dc63f;
+}
+
+
+
+
+
+
+/* ------------------------------------------- */
+/* ----------- Footer User Control ----------- */
+/* ------------------------------------------- */
+.footerOuterDiv {
+    width: 970px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.ulFooter_1 {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.liFooter_left {
+    float: left;
+    width: 485px;
+    text-align: left;
+    /*font-family:Arial Verdana;*/
+    /*font-size: 12px;*/
+    color: gray;
+    margin-left: 55px;
+}
+
+.liFooter_right {
+    float: right;
+    width: 250px;
+    text-align: left;
+    /*font-family:Arial Verdana;*/
+    /*font-size: 12px;*/
+    color: gray;
+    margin-left: 200px;
+}
+
+    .liFooter_right a:link, .liFooter_right a:visited {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .liFooter_right a:hover {
+        color: #bc0103;
+        text-decoration: underline;
+    }
+
+
+/* --------------------------------- */
+/* ----------- Home Form ----------- */
+/* --------------------------------- */
+.divHomeOuter {
+    background-color: #ffffff;
+    width: 965px;
+    height: 435px;
+    text-align: center;
+    padding: 5px 0px 0px 5px;
+}
+
+.divHomeInner {
+    background-color: #ffffff;
+    width: 960px;
+    height: 370px;
+    margin-top: 40px;
+    background-image: url('junk-truck.jpg');
+    background-repeat: no-repeat;
+    background-position: 330px 30px;
+}
+
+.divHomeSubmit {
+    width: 450px;
+    height: 250px;
+    margin-left: 475px;
+    margin-top: -140px;
+}
+
+.spanHomeTitle {
+    /*font-family:Arial Verdana;*/
+    /*font-size: 18px;*/
+    font-weight: bold;
+    color: Blue;
+}
+
+.ulHomeUser {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.liHomeLabel {
+    float: left;
+}
+
+.liHomeTextbox {
+    float: left;
+}
+
+.liHomeSubmit {
+    float: left;
+    margin-left: 160px;
+}
+
+
+
+
+/* -------------------------------- */
+/* ----------- Add User ----------- */
+/* -------------------------------- */
+.divAddUserOuter {
+    background-color: #ffffff;
+    width: 965px;
+    text-align: center;
+    padding: 5px 0px 0px 5px;
+}
+
+.divAddUserInner {
+    background-color: #ffffff;
+    width: 960px;
+    text-align: left;
+    padding: 10px;
+    min-height: 340px;
+}
+
+.btnAddUserSubmit {
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+.btnAddUserCancel {
+    float: right;
+    margin: 0px 335px 0px 0px;
+}
+
+.StatusLabel {
+    color: Red;
+}
+
+
+.editUserButtons {
+    text-align: left;
+}
+
+    .editUserButtons A {
+        margin: 10px 0px 0px 0px !important;
+        width: 150px;
+    }
+
+.addUserButtons {
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+.addUserButtonSave, .addUserButtonClose {
+    float: left;
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+
+.editUsersButtonClose {
+    padding-left: 8px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: 368px;
+}
+
+.homeDiv {
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+    /*font-family:Oswald,'Trebuchet MS',sans-serif;*/
+}
+
+    .homeDiv input {
+        padding: 10px;
+    }
+
+
+.homeButton {
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+    .homeButton a {
+        color: #fff !important;
+        text-decoration: none !important;
+        /*font-family:Oswald,'Trebuchet MS',sans-serif;*/
+    }
+
+.homeButton2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0055a5;
+}
+
+.homeGoButton {
+    margin-left: 10px;
+}
+
+.homeButtonClose {
+    padding-left: 8px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.divRouteAssignmentsHeader h1 {
+    /*font-size: 20px;*/
+    padding-bottom: 10px;
+}
+
+
+
+.routeEntryButtonClose {
+    /*padding-left:8px;
+	text-transform:uppercase;*/
+    position: absolute;
+    top: -46px;
+    /*left:50%;
+	margin-left:300px;	*/
+    right: 10px;
+    z-index: 100;
+}
+
+.routeEntryButtonSendText {
+    right: 180px;
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+    background-color: yellow;
+    border: 1px red solid;
+    padding: 3px;
+}
+
+
+.teamWelcomeButtonClose {
+    text-transform: uppercase;
+    position: relative;
+    clear: both;
+    padding: 10px 0px 0px 0px;
+    width: 150px;
+}
+
+.addUserButtonSave a, .addUserButtonClose a {
+    text-decoration: none;
+}
+
+
+
+/* ---------------------------------- */
+/* ----------- Edit Users ----------- */
+/* ---------------------------------- */
+.divEditUserOuter {
+    background-color: #ffffff;
+    width: 965px;
+    text-align: left;
+    padding: 5px 0px 0px 5px;
+}
+
+    .divEditUserOuter a {
+        margin-left: 10px;
+    }
+
+.divEditUserInner {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    padding: 0px 0px 20px 40px;
+}
+
+.btnEditUserSubmit {
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+.btnEditUserCancel {
+    float: right;
+    margin: 0px 335px 0px 0px;
+}
+
+.EditUsersGrid {
+    border: 0px;
+}
+
+    .EditUsersGrid th {
+        border: 0px;
+    }
+
+    .EditUsersGrid td {
+        border: 0px;
+    }
+
+
+/* ------------------------------------ */
+/* ----------- Team Welcome ----------- */
+/* ------------------------------------ */
+#teamWelcomeOuterDiv {
+    text-align: left;
+    padding-bottom: 0px;
+    background-color: #fff;
+    padding-left: 5px;
+    width: 965px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+    #teamWelcomeOuterDiv a {
+        margin-left: 10px;
+    }
+
+#teamWelcomeInnerDiv {
+    text-align: left;
+    padding: 10px 10px 40px 10px;
+}
+
+#teamWelcomeSignIn {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+}
+
+#teamWelcomeSignInButton {
+    clear: both;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    width: 970px;
+}
+
+    #teamWelcomeSignInButton A {
+        margin: 10px 0px 0px 0px;
+        width: 150px;
+    }
+
+#teamWelcomeTop5Button {
+    clear: both;
+    margin: 10px 0px 0px 0px;
+}
+
+#teamWelcomeSignOutButton {
+    clear: both;
+    margin: 10px 0px 0px 0px;
+    width: 150px;
+}
+
+#teamWelcomeRemoveButton {
+    clear: both;
+    margin: 10px 0px 0px 0px;
+    width: 150px;
+}
+
+.teamWelcomeEditRouteButton {
+    margin: 10px;
+    padding: 10px;
+    width: 225px;
+    float: left;
+    border: 1px silver solid;
+}
+
+    .teamWelcomeEditRouteButton A, #teamWelcomeSignOutButton A, .teamWelcomeButtonClose A, #teamWelcomeRemoveButton A {
+        margin: 10px 0px 0px 0px !important;
+        width: 150px;
+    }
+
+.btnSignIn {
+    width: 100px;
+}
+
+.dropdownRoute {
+    width: 200px;
+    margin: 10px;
+}
+
+.teamWelcomeGrid {
+    width: 850px;
+    border-width: 1px 1px 1px 1px !important;
+    border-color: #726754 !important;
+    border-style: solid !important;
+}
+
+.teamWelcomeUserIDColumn {
+    display: none;
+}
+
+.teamWelcomeGridHeader {
+    background-color: Silver;
+}
+
+    .teamWelcomeGridHeader th {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+.teamWelcomeGrid > tbody > tr > td {
+    color: black;
+    /*font-size: 11px;*/
+    padding: 2px 10px 2px 10px;
+    border-width: 0px 1px 1px 1px;
+    border-color: #726754;
+    border-style: solid;
+}
+
+
+.teamWelcomeNameColumn {
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*font-size:10pt;*/
+}
+
+.teamWelcomeSignInColumn, .teamWelcomeSignOutColumn {
+    width: 220px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*font-size:10pt;*/
+}
+
+.teamWelcomeRouteColumn {
+    width: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*font-size:10pt;*/
+}
+
+
+
+
+.dailyPSItemIDColumn {
+    display: none;
+}
+
+
+/* ----------------------------------- */
+/* ----------- Route Entry ----------- */
+/* ----------------------------------- */
+
+.enterJobsPanel, .enterDumpsPanel, .enterWagesPanel, .enterConfirmationPanel {
+    min-width: 1050px;
+    /*width:1050px;*/
+    min-height: 650px;
+}
+
+.enterDumpsPanel {
+    position: relative;
+    min-height: 650px;
+}
+
+.enterWagesPanel {
+    position: relative;
+    min-height: 850px;
+}
+
+.enterJobsCustomerPhone {
+}
+
+
+.rdcTitle {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    /*float: left;*/
+    width: 500px;
+    text-transform: uppercase;
+    /*font-size:24px;*/
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    /*height: 47px;*/
+}
+
+.rdcTitleRev {
+    position: relative;
+    float: left;
+    width: 100px;
+    text-transform: uppercase;
+    /*font-size:12px;*/
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.rdcTitleStepNotSelect {
+    border-bottom: 1px solid black;
+}
+
+.rdcTitleExtension{
+    color:white;
+    width:300px;
+}
+
+.rdcTitleNotSelect {
+    border-bottom: 1px solid black;
+}
+
+    .rdcTitleNotSelect a {
+        color: Black;
+        text-decoration: none;
+    }
+
+        .rdcTitleNotSelect a:hover {
+            color: blue;
+            text-decoration: none;
+        }
+
+.rdcTitleSelect {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    color: Blue;
+}
+
+    .rdcTitleSelect a {
+        color: blue;
+        text-decoration: none;
+    }
+
+
+
+/* Title Div */
+.rdcTitleDiv {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+}
+
+.rdcTitleDate {
+    position: relative;
+    text-transform: uppercase;
+    top: 10px;
+    left: 0px;
+    /*font-size:12px;*/
+    font-weight: normal;
+    text-align: left;
+}
+
+.rdcTitleDescription {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    /*font-size:22px;*/
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: left;
+}
+
+.rdcTitleSelected {
+    color: #fff;
+    border: 1px black solid;
+    background-color: #206fc0;
+    padding: 3px;
+}
+
+.rdcTitleSelectedTitle {
+    color: #206fc0;
+}
+
+.rdcTitleNotSelected {
+    color: #fff;
+    border: 1px black solid;
+    background-color: #000;
+    padding: 3px;
+}
+
+.rdcTitleNotSelectedTitle {
+    color: #000;
+}
+
+
+
+.rdcTitleStepOne {
+    position: absolute;
+    top: 8px;
+    left: 200px;
+}
+
+.rdcTitleStepOneTitle {
+    position: absolute;
+    top: 14px;
+    left: 220px;
+    width: 150px;
+    text-align: left;
+}
+
+    .rdcTitleStepOneTitle a:link, .rdcTitleStepOneTitle a:visited {
+        color: black;
+    }
+
+    .rdcTitleStepOneTitle a:hover {
+        color: #206fc0;
+    }
+
+.rdcTitleStepTwo {
+    position: absolute;
+    top: 8px;
+    left: 380px;
+}
+
+.rdcTitleStepTwoTitle {
+    position: absolute;
+    top: 14px;
+    left: 400px;
+    width: 180px;
+    text-align: left;
+}
+
+.rdcTitleStepThree {
+    position: absolute;
+    top: 8px;
+    left: 600px;
+}
+
+.rdcTitleStepThreeTitle {
+    position: absolute;
+    top: 14px;
+    left: 620px;
+    width: 180px;
+    text-align: left;
+}
+
+.rdcTitleStepFour {
+    position: absolute;
+    top: 8px;
+    left: 790px;
+}
+
+.rdcTitleStepFourTitle {
+    position: absolute;
+    top: 14px;
+    left: 810px;
+    width: 150px;
+    text-align: left;
+}
+
+.rdcStepDiv {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 35px;
+    width: 960px;
+    text-align: left;
+}
+
+.rdcStepInner {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 35px;
+    border-bottom: 1px black solid;
+}
+
+.rdcStepImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.rdcStepTitle {
+    position: absolute;
+    top: 10px;
+    left: 32px;
+    text-transform: uppercase;
+    /*font-size:16px;	*/
+    width: 550px;
+    text-align: left;
+}
+
+.rdcStepRequired {
+    position: absolute;
+    top: 17px;
+    right: 0px;
+    color: #206fc0;
+    width: 190px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Enter Jobs Grid */
+.enterJobsGridDiv {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 60px;
+}
+
+.enterJobsTicketRevenueColumn, .enterJobsTicketDiscountColumn, .enterJobsTicketCECColumn, enterJobsTicketNetColumn {
+    text-align: right;
+}
+
+
+.divCECDateRange {
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+}
+
+.enterJobsTitleDiv {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 400px;
+    /*font-size:16px;*/
+    text-transform: uppercase;
+}
+
+.redCell {
+    color: red;
+}
+
+.ecc_table {
+    margin: 20px 0px 0px 0px;
+    /*width: 990px;*/
+    width: 100%;
+    border-width: 1px 0px 0px 0px;
+    border-color: #726754;
+    border-style: solid;
+    float: left;
+}
+
+.ecc_table_payroll_adjustments {
+    width: auto;
+}
+
+.ecc_table_nofloat {
+    float: none;
+    margin-top: 0px;
+}
+
+.ecc_table > tbody > tr > th {
+    color: black;
+    /*font-size:14px;*/
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+    border-width: 0px 1px 1px 1px;
+    border-color: #726754;
+    border-style: solid;
+    text-align: center;
+}
+
+.ecc_table > tbody > tr > td {
+    color: black;
+    /*font-size:14px;*/
+    padding: 5px 10px 5px 10px;
+    border-width: 0px 1px 1px 1px;
+    border-color: #726754;
+    border-style: solid;
+    height: 28px;
+}
+
+
+.ecc_subtotal_text,
+.ecc_subtotal_price {
+    border-style: none !important;
+}
+
+.ecc_subtotal_text {
+    color: black;
+    text-align: right;
+}
+
+.ecc_table > tbody > tr > td > input {
+    max-width: 36px;
+    height: 11px;
+    padding: 5px;
+    background-color: #3b352c;
+    border: 1px solid #726754;
+    color: black;
+    /*font-size: 11px;*/
+    margin-right: 4px;
+}
+
+.ecc_table_row_odd {
+    background-color: #26221c;
+}
+
+.ecc_table > tbody > tr > td > a,
+.ecc_table > tbody > tr > td > a:hover,
+.ecc_table > tbody > tr > td > a:visited {
+    color: black;
+    text-transform: capitalize;
+}
+
+.ecc_table_item_name {
+    white-space: nowrap;
+}
+
+.ecc_table_item_stock {
+    color: #ff0000;
+}
+
+
+
+
+.mktg_table {
+    margin: 15px 0px 0px 0px;
+    width: 750px;
+    border-width: 1px 0px 0px 0px;
+    border-color: #726754;
+    border-style: solid;
+    float: left;
+}
+
+    .mktg_table > tbody > tr > th {
+        color: black;
+        /*font-size: 12px;*/
+        font-weight: normal;
+        text-transform: capitalize;
+        padding: 5px;
+        text-align: left;
+        white-space: nowrap;
+        border-width: 0px 1px 1px 1px;
+        border-color: #726754;
+        border-style: solid;
+    }
+
+    .mktg_table > tbody > tr > td {
+        color: black;
+        /*font-size:11px;*/
+        padding: 5px;
+        border-width: 0px 1px 1px 1px;
+        border-color: #726754;
+        border-style: solid;
+        height: 14px;
+    }
+
+
+.ecc_subtotal_text,
+.ecc_subtotal_price {
+    border-style: none !important;
+}
+
+.ecc_subtotal_text {
+    color: black;
+    text-align: right;
+}
+
+.mktg_table > tbody > tr > td > input {
+    max-width: 36px;
+    height: 11px;
+    padding: 5px;
+    background-color: #3b352c;
+    border: 1px solid #726754;
+    color: black;
+    /*font-size:11px;*/
+    margin-right: 4px;
+}
+
+.mktg_table_row_odd {
+    background-color: #26221c;
+}
+
+.mktg_table > tbody > tr > td > a,
+.mktg_table > tbody > tr > td > a:hover,
+.mktg_table > tbody > tr > td > a:visited {
+    color: black;
+    text-transform: capitalize;
+}
+
+.mktg_table_item_name {
+    white-space: nowrap;
+}
+
+.mktg_table_item_stock {
+    color: #ff0000;
+}
+
+
+.updateNPSTextBox {
+    background-color: white !important;
+    color: black;
+}
+
+.tableNPS {
+    width: 590px !important;
+}
+
+.divEnterJobsSpacer {
+    position: relative;
+    height: 0px;
+    margin: 10px;
+    width: 200px;
+}
+
+.enterJobsEntry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.crumbButton {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+}
+
+.enterJobsButtons {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.enterDumpsButtons {
+    position: absolute;
+    top: 38px;
+    right: 50px;
+}
+
+.enterJobsButtonsSave {
+    position: relative;
+    top: -160px;
+    left: 0px;
+}
+
+.enterNPSButtonsSave {
+    top: 30px !important;
+}
+
+.enterJobsButtonEdit, .enterJobsButtonsDelete {
+    float: left;
+    padding-right: 8px;
+    text-transform: uppercase;
+}
+
+    .enterJobsButtonsEdit a, .enterJobsButtonsDelete a {
+        text-decoration: none;
+    }
+
+.enterJobsButtonEditLeft {
+    background-image: url('http://www.polarisindustries.com/StyleSite/ORV/2012/images/btn_sprite.png');
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    padding-left: 0px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.enterJobsButtonEditLeftSecondary {
+    background-image: url('http://www.polarisindustries.com/StyleSite/ORV/2012/images/btn_sprite.png');
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    padding-left: 6px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.enterJobsButtonDelete span, .enterJobsButtonEdit span {
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*font-size:10px;*/
+    font-weight: bold;
+    color: #FFF;
+    padding-right: 4px;
+}
+
+.enterJobsButtonEditCap {
+    background-image: url('http://www.polarisindustries.com/StyleSite/ORV/2012/images/btn_sprite.png');
+    background-position: right;
+    width: 7px;
+    height: 26px;
+    float: left;
+    position: relative;
+    left: -1px;
+}
+
+
+
+
+/* Enter Jobs Entry */
+
+.enterJobsTable > tbody > tr > th {
+    text-align: center;
+}
+
+.enterJobsNoJobsLabel {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    font-weight: bold;
+    color: Red;
+}
+
+.enterJobsEntryTicketID {
+    display: none;
+}
+
+.enterJobsEntryJobIDLabel, .enterJobsEntryJobID, .enterJobsEntryTicketNumberLabel, .enterJobsEntryTicketNumber, .enterJobsEntryRevenueLabel, .enterJobsEntryRevenue,
+.enterJobsEntryDiscountLabel, .enterJobsEntryDiscount, .enterJobsEntryCECLabel, .enterJobsEntryCEC {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterJobsEntryTipsLabel, .enterJobsEntryTips, .enterJobsEntrySignLabel, .enterJobsEntrySign, .enterJobsEntryDoorHangersLabel, .enterJobsEntryDoorHangers, .enterJobsEntryPaymentLabel, .enterJobsEntryPayment {
+    position: relative;
+    top: -360px;
+    /*top: -240px;*/
+    left: 200px;
+    margin-top: 5px;
+}
+
+.enterJobsEntrySendThankYou {
+    width: 160px;
+}
+
+.enterJobsEntryDetailsLabel, .enterJobsEntryDetails {
+    position: relative;
+    top: -170px;
+    left: 0px;
+}
+
+.enterJobsGrayBackground {
+    background-color: lightgray;
+}
+
+.enterJobsDiscColor {
+    background-color: #ff9999;
+}
+
+.enterJobsRevColor {
+    background-color: #85C1E9;
+}
+
+.enterJobsCenter {
+    text-align: center !important;
+}
+
+
+/* Enter CEC Grid */
+.enterCECGrid {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 60px;
+}
+
+/* Enter Jobs Entry */
+.enterCECEntry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.enterCECEntryID {
+    display: none;
+}
+
+.enterCECJobIDLabel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterCECErrorLabel {
+    position: relative;
+    top: -180px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterCECMSWPercentageLabel {
+    position: relative;
+    top: -235px;
+    left: 300px;
+    margin-top: 5px;
+}
+
+.enterCECItemDetailsLabel {
+    position: relative;
+    top: -140px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterCECInfoPieceLabel {
+    position: relative;
+    top: -345px;
+    left: 300px;
+    margin-top: 5px;
+}
+
+.enterJobsCECButtons {
+    position: relative;
+    top: -170px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* enter dumps */
+#divEnterDumps, #divEnterFuel, .divEnterJobsSpacer {
+    clear: both;
+}
+
+#divEnterDumps {
+    min-height: 850px;
+}
+
+.enterDumpsHelperInformationOuter {
+    clear: both;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    text-align: left;
+    top: -285px;
+    left: 240px;
+}
+
+.enterDumpsHelperInformation span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.enterDumpsHelperInformation ul {
+    list-style-type: square;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin: 0px;
+    text-align: left;
+}
+
+.enterDumpsHelperInformation li {
+    padding-top: 5px;
+}
+
+.enterDumpsSecondaryUL {
+    padding-top: 0px !important;
+}
+
+.enterDumpsGrid {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 65px;
+}
+
+.enterDumpsEntry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.enterDumpsEntryTicketID {
+    display: none;
+}
+
+.enterDumpsEntryDumpLocationLabel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterDumpsEntrySaveButton {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+/* enter fuel */
+.enterFuelGrid {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 65px;
+}
+
+.enterFuelEntry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.enterFuelEntryTicketID {
+    display: none;
+}
+
+.enterFuelLocationLabel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterFuelSaveButton {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+/* enter expense */
+.enterExpenseGrid {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 65px;
+}
+
+.enterExpenseEntry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.enterExpenseEntryTicketID {
+    display: none;
+}
+
+.enterExpenseEntryDumpLocationLabel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterExpenseSaveButton {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+
+/* enter wages */
+
+.rptWagesContainer {
+    padding: 0px;
+    margin: 0px;
+    min-height: 50px;
+    position: relative;
+    top: 10px;
+    clear: both;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.rptWagesFullName {
+    position: relative;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+    .rptWagesFullName input {
+        text-align: right;
+    }
+
+.rptWagesTrainer {
+    top: -5px;
+    left: 10px;
+}
+
+    .rptWagesTrainer label {
+        top: -3px;
+        position: relative;
+    }
+
+
+.rptWagesWorkTypeContainer {
+    position: relative;
+    padding: 0px;
+    margin: 20px;
+    min-height: 225px;
+    margin-left: 10px;
+    border: 1px #0055a5 solid;
+    width: 230px;
+}
+
+.rptWagesWorkTypeID {
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+}
+
+.rptWagesWorkTypeItem {
+    position: relative;
+    padding: 5px;
+    margin: 0px;
+    clear: both;
+}
+
+.rptWagesWorkTypeHours {
+    margin-left: 10px;
+}
+
+.rptWagesSaveButton {
+    left: 120px;
+}
+
+    .rptWagesSaveButton a {
+        width: 225px;
+    }
+
+.rptWagesName {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.wagesWorkTypeDisabledTextBox {
+    border: 0px;
+    background-color: white;
+    color: black;
+}
+
+
+.enterWagesDefinitions {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+
+.enterWagesDefinitionsCategory span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.enterWagesDefinitionsDetails ul {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    list-style-type: square;
+}
+
+.divTotalHours {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 82px;
+    margin-left: 270px;
+}
+
+.divRemainingHours {
+    top: 355px;
+}
+
+.divTotalHours input {
+    padding: 0px;
+    margin: 0px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.divWagesSummaryOuter {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.divwagesSummaryRptOuter {
+    position: relative;
+    width: 325px;
+    float: left;
+    border-right: 1px black solid;
+    margin-right: 10px;
+}
+
+.divWagesSummary {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    width: 750px;
+}
+
+.divWagesSummaryName {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.divWagesSummaryProfitShare {
+    margin-top: 10px;
+}
+
+.divWagesSummaryDetailsOuter {
+    margin-left: 30px;
+    height: 20px;
+}
+
+.divWagesSummaryDetailsHourType {
+    top: 0px;
+    left: 0px;
+    width: 200px;
+}
+
+.divWagesSummaryDetailsHourNumber {
+    position: relative;
+    top: -21px;
+    left: 130px;
+    text-align: right;
+    width: 50px;
+}
+
+.divWagesSummaryDetailsHourValue {
+    position: relative;
+    top: -41px;
+    left: 160px;
+    text-align: right;
+    width: 120px;
+}
+
+.divWagesSummaryOneColumn {
+    height: 0px;
+    width: 80px;
+    top: -20px;
+    position: relative;
+    left: 130px;
+    text-align: right;
+}
+
+.divWagesSummaryTwoColumn {
+    width: 120px;
+    top: -20px;
+    position: relative;
+    left: 190px;
+    text-align: right;
+}
+
+.divWagesSummaryThreeColumn {
+    width: 120px;
+    top: -20px;
+    position: relative;
+    left: 190px;
+    text-align: right;
+}
+
+
+
+
+
+
+.divReportsV3Outer {
+    clear: both;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+    width: 420px;
+    background-color: #b30000;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.enterWagesGrid {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    /*overflow: scroll;*/
+    min-height: 100px;
+    padding-bottom: 50px;
+}
+
+.enterWagesEntry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.enterWagesIDLabel {
+    display: none;
+}
+
+.enterWagesMemberLabel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterWagesSaveButton {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* enter marketing */
+.enterMarketingGrid {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+    min-height: 65px;
+}
+
+.enterMarketingEntry {
+    position: relative;
+    top: -590px;
+    left: 390px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    width: 280px;
+}
+
+.enterMarketingEntryTicketID {
+    display: none;
+}
+
+.enterMarketingEntryDumpLocationLabel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.enterMarketingSaveButton {
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+.enterMarketingContinueButton {
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+
+
+
+/* ------------------------------- */
+/* ----------- Buttons ----------- */
+/* ------------------------------- */
+.topButtons {
+    position: absolute;
+    top: 190px;
+    right: 50px;
+}
+
+.topButton {
+    float: left;
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+
+    .topButton a {
+        text-decoration: none;
+    }
+
+.btnLeft {
+    background-image: url('http://www.polarisindustries.com/StyleSite/ORV/2012/images/btn_sprite.png');
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    padding-left: 0px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.topButton span {
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*font-size:10px;*/
+    font-weight: bold;
+    color: #FFF;
+    padding-right: 4px;
+}
+
+.btnCap {
+    background-image: url('http://www.polarisindustries.com/StyleSite/ORV/2012/images/btn_sprite.png');
+    background-position: right;
+    width: 7px;
+    height: 26px;
+    float: left;
+    position: relative;
+    left: -1px;
+}
+
+.pagingButton {
+    background-image: url('http://www.polarisindustries.com/Style%20Library/Polaris/ORV/2011/images/btn_sprite_sm.png');
+    background-position: -10px 0px;
+    height: 27px;
+    float: left;
+    overflow: hidden;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+.wageSummaryButton {
+    background-image: url('http://www.polarisindustries.com/Style%20Library/Polaris/ORV/2011/images/btn_sprite_sm.png');
+    background-position: 0px 0px;
+    height: 27px;
+    overflow: hidden;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    margin: 0px !important;
+}
+
+.wageSummaryButtonOuter {
+    background-image: url('http://www.polarisindustries.com/StyleSite/ORV/2012/images/btn_sprite.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 67px;
+    height: 26px;
+    position: relative;
+    left: -1px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+/* Summary Page */
+#divConfirmation {
+    min-height: 200px;
+}
+
+.divProfitSummary {
+    clear: both;
+    padding: 0px;
+    margin: 10px 0px 5px 0px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    width: 600px;
+}
+
+.divProfitSummaryHeading {
+    clear: both;
+    font-style: italic;
+}
+
+#divLeftColumn {
+    width: 480px;
+    float: left;
+}
+
+#divRightColumn {
+    width: 480px;
+    float: left;
+}
+
+.divPSEmps {
+    clear: both;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.divLeftColumn {
+    clear: both;
+    width: 480px;
+}
+
+#divProfitabilityTable {
+    font-size: 12px;
+}
+
+    #divProfitabilityTable table {
+        width: 100%;
+    }
+
+        #divProfitabilityTable table tr td:first-child {
+            text-align: left;
+            padding: 3px 0px 3px 10px;
+        }
+
+        #divProfitabilityTable table tr td.tblCellRightAlign {
+            text-align: right;
+        }
+
+        #divProfitabilityTable table tr td.tblCellMiddleAlign {
+            text-align: center;
+        }
+
+        #divProfitabilityTable table tr td.tblCellUnderline {
+            text-decoration: underline;
+        }
+
+        #divProfitabilityTable table tr td.tblCellLarge {
+            padding: 10px 0px 20px 0px;
+        }
+
+.tblCellBold {
+    font-weight: bold;
+}
+
+
+
+
+
+#divPSSummaryTable {
+}
+
+    #divPSSummaryTable table {
+        width: 100%;
+    }
+
+        #divPSSummaryTable table tr td:first-child {
+            text-align: left;
+            padding: 3px 0px 3px 10px;
+        }
+
+        #divPSSummaryTable table tr td.tblCellLarge {
+            padding: 10px 0px 20px 10px;
+            font-weight: bold;
+        }
+
+        #divPSSummaryTable table tr td.tblCellRightAlign {
+            text-align: right;
+        }
+
+
+
+.divRouteApprovalOuter {
+    display: none;
+}
+
+
+#divSummary {
+    margin: 10px 0px 10px 0px;
+    width: 990px;
+    float: left;
+    text-align: center;
+}
+
+    #divSummary table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+        #divSummary table tr.tblCellLargeRow td {
+            padding: 10px 0px 10px 0px;
+            border: solid 1px black;
+        }
+
+.divProfitSummaryEmps {
+    text-align: left;
+}
+
+    .divProfitSummaryEmps input {
+        margin: 5px 0px 5px 0px;
+    }
+
+.divProfitSummaryEmpsButtons {
+}
+
+.divProfitSummaryEmpsButton {
+}
+
+.divProfitSummaryWages {
+    text-align: left;
+}
+
+    .divProfitSummaryWages table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+        .divProfitSummaryWages table tr td {
+            text-align: right;
+            border: solid 1px black;
+            padding: 0px 5px 0px 0px;
+        }
+
+        .divProfitSummaryWages table tr th {
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .divProfitSummaryWages table tr td:first-child {
+            text-align: left !important;
+            padding: 3px 0px 3px 10px;
+        }
+
+
+
+
+
+
+
+.users_table {
+    margin: 20px 0px 0px 0px;
+    width: 600px;
+    border-width: 1px 0px 0px 0px;
+    border-color: #726754;
+    border-style: solid;
+}
+
+    .users_table > tbody > tr > th {
+        color: black;
+        /*font-size: 12px;*/
+        font-weight: normal;
+        text-transform: capitalize;
+        padding: 10px;
+        text-align: left;
+        white-space: nowrap;
+        border-width: 0px 1px 1px 1px;
+        border-color: #726754;
+        border-style: solid;
+    }
+
+    .users_table > tbody > tr > td {
+        color: black;
+        padding: 5px 10px 5px 10px;
+        border-width: 0px 1px 1px 1px;
+        border-color: #726754;
+        border-style: solid;
+        height: 28px;
+    }
+
+
+
+.addUserTable {
+    margin: 20px 0px 0px 0px;
+    width: 600px;
+}
+
+    .addUserTable input, .addUserTable select {
+        padding: 10px;
+        /*font-size: 12px;*/
+        /*font-family: Oswald,'Trebuchet MS',sans-serif;*/
+    }
+
+    .addUserTable > tbody > tr > th {
+        color: black;
+        font-weight: normal;
+        text-transform: capitalize;
+        padding: 10px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .addUserTable > tbody > tr > td {
+        color: black;
+        padding: 5px 10px 5px 10px;
+        height: 28px;
+    }
+
+
+
+
+
+/* Top 5 */
+.top5OuterDiv {
+    text-align: left;
+}
+
+.top5Header {
+    /*font-size:22px;*/
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 700px;
+    text-align: left;
+}
+
+
+
+
+/* ------------------------------- */
+/* ----------- Reports ----------- */
+/* ------------------------------- */
+.rptOuter {
+    text-align: left;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+    .rptOuter td {
+        text-align: right;
+    }
+
+.rptTable td {
+    text-align: left;
+}
+
+#divCEC, #divRptAJS, #divRptHourType, #divRptReasonsNotConvert, #divRptDailyRoute {
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    width: 280px;
+    border: solid 1px darkgray;
+}
+
+.divCECTitle {
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#divCEC h1 {
+    padding: 0px;
+    margin: 10px;
+}
+
+#divCECStartDate, #divCECEndDate, #divCECSubmit, #divAJSStartDate, #divAJSEndDate, #divAJSSubmit, #divHourTypeStartDate, #divHourTypeEndDate, #divHourTypeSubmit, #divReasonsNotConvertStartDate, #divReasonsNotConvertEndDate, #divReasonsNotConvertSubmit {
+    padding: 0px;
+    margin: 15px;
+    position: relative;
+}
+
+    #divCECStartDate input, #divCECEndDate input, #divAJSStartDate input, #divAJSEndDate input, #divAJSSubmit input, #divHourTypeStartDate input, #divHourTypeEndDate input, #divHourTypeSubmit input, #divReasonsNotConvertStartDate input, #divReasonsNotConvertEndDate input, #divReasonsNotConvertSubmit input {
+        position: relative;
+        float: right;
+        margin-right: 20px;
+    }
+
+#divCECReportsViewReturn {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+/*.reportButton{
+	background-image:url('http://www.polarisindustries.com/Style%20Library/Polaris/ORV/2011/images/btn_sprite_sm.png');
+	background-position:-10px 0px;
+	height:24px;
+	float:left;
+	overflow:hidden;
+	background-color:transparent;
+	border:0px;
+	color:white;
+	cursor:pointer;
+	padding-top:3px;
+}*/
+
+#divRptJobs, #divRphRPH, #divRptTopDog {
+    /*    padding: 0px;
+    margin: 0px;
+    width: 350px;
+    border: solid 1px silver;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    */
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    width: 280px;
+    border: solid 1px darkgray;
+}
+
+#divRphRPH, #divRptTopDog {
+    top: 10px;
+}
+
+    #divRptJobs h1, #divRphRPH h1, #divRptTopDog h1 {
+        padding: 0px;
+        margin: 10px;
+    }
+
+#divRptJobsStartDate, #divRptJobsEndDate, #divRptJobsSubmit, #divRphStartDate, #divRphEndDate, #divRphSubmit, #divTopDogStartDate, #divTopDogEndDate, #divTopDogSubmit {
+    /*	padding:0px;
+	margin:10px;
+	position:relative;
+	display:block;
+	height:20px;
+    */
+    padding: 0px;
+    margin: 15px;
+    position: relative;
+}
+
+    #divRptJobsStartDate input, #divRptJobsEndDate input, #divRphStartDate input, #divRphEndDate input, #divTopDogStartDate input, #divTopDogEndDate input, #divTopDogSubmit input {
+        position: relative;
+        float: right;
+        margin-right: 80px;
+        margin-right: 20px;
+    }
+
+#divRptPayroll, #divRptSigns, #divRptTips, #divRptPayrollDates {
+    /*    padding: 0px;
+    margin: 0px;
+    width: 350px;
+    border: solid 1px silver;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    */
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    width: 280px;
+    border: solid 1px darkgray;
+}
+
+#divRptSigns, #divRptTips {
+    top: 20px;
+}
+
+    #divRptPayroll h1, #divRptSigns h1, #divRptTips h1 {
+        padding: 0px;
+        margin: 10px;
+    }
+
+#divRptPayrollStartDate, #divRptPayrollEndDate, #divRptPayrollSubmit, #divSignsStartDate, #divSignsEndDate, #divSignsSubmit, #divTipsStartDate, #divTipsEndDate, #divTipsSubmit, #divPayrollDatesStart, #divPayrollDatesEnd, #divPayrollDatesSubmit {
+    /*    padding: 0px;
+    margin: 10px;
+    position: relative;
+    display: block;
+    height: 20px;
+    */
+    padding: 0px;
+    margin: 15px;
+    position: relative;
+}
+
+    #divRptPayrollStartDate input, #divRptPayrollEndDate input, #divSignsStartDate input, #divSignsEndDate input, #divTipsStartDate input, #divTipsEndDate input, #divPayrollDatesStart input, #divPayrollDatesEnd input, #divPayrollDatesSubmit input {
+        position: relative;
+        float: right;
+        margin-right: 80px;
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+.rptContainer {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+
+.rptHeadText {
+    text-align: left;
+    /*font-size:18px;*/
+    font-weight: bold;
+    margin: 5px;
+}
+
+.rptStartDate, .rptEndDate, .rptLinkButton {
+    margin: 5px;
+    text-align: left;
+}
+
+.rptContain1, .rptContain2, .rptContain3 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rptNewOuter {
+    position: relative;
+    text-align: left;
+    padding: 20px;
+}
+
+    .rptNewOuter td, .rptNewOuter input {
+        padding: 5px;
+    }
+
+    .rptNewOuter span {
+        padding: 5px;
+        font-weight: bold;
+    }
+
+.rptNewInner {
+    padding: 10px;
+    width: 250px;
+    border: 1px silver solid;
+}
+
+.rptNewInnerLowest {
+    position: absolute;
+    margin-left: 50%;
+    left: 200px;
+    top: 20px;
+    z-index: 2;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START OF NEW STUFF */
+
+
+
+
+
+.rptWagesWorkTypeContainer {
+    position: relative;
+    padding: 0px;
+    margin: 20px;
+    min-height: 180px;
+    margin-left: 10px;
+    border: 1px #0055a5 solid;
+    width: 400px;
+}
+
+
+
+.rptWagesContainer {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    min-height: 275px;
+    position: relative;
+    top: 10px;
+    clear: both;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.rptWagesDataFullName {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+.rptWagesDataFloatLeft{
+    position:relative;
+    margin:0px;
+    padding:3px 0px 3px 0px;
+    float:left; 
+    width:160px;
+    text-align:left;
+}
+
+.rptWagesDataFloatLeft input {
+    text-align:right;
+}
+
+.rptWagesDataSignature {
+    position: relative;
+    margin: 0px;
+    padding: 15px 0px 3px 0px;
+    text-align: left;
+    border-top:1px solid black;
+}
+
+.rptWagesDataSignatureConfirm{
+    padding-bottom:10px;
+    max-width:140px;
+}
+
+.rptWagesDataSummaryWages {
+    position: relative;
+    margin: 0px;
+    padding: 3px 0px 3px 0px;
+    float: left;
+    min-width: 24.5%;
+    text-align: left;
+}
+
+.rptWagesDataRevenueAreaLeft {
+    position: relative;
+    margin: 0px;
+    padding: 3px 0px 3px 0px;
+    float: left;
+    min-width: 65%;
+    text-align: left;
+
+}
+
+.rptWagesDataRevenueAreaRight {
+    position: relative;
+    margin: 0px;
+    padding: 3px 0px 3px 0px;
+    float: left;
+    min-width: 35%;
+    text-align: left;
+}
+
+.rptWagesDataFontBold{
+    font-weight:bold;
+}
+
+.rptWagesDataSummaryName{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.rptWagesDataHoursType{
+    text-indent:5px;
+}
+
+.rptWagesDataClear {
+    clear: both;
+}
+
+.rptWagesDataBottomPadding{
+    padding-bottom:10px;
+}
+
+.red {
+    background-color: #a30504;
+}
+
+.green {
+    /*background-color: #8dc63f;*/
+    background-color: #228B22;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.buttonborder {
+    border:2px white solid;
+
+}
+
+.routeEntryButtonClose a:hover {
+    background-color: #8dc63f;
+}
+
+
+.narrowbutton{
+    min-width:120px;
+}
+
+.DisplayNone{
+    display:none;
+}
+
+.alignRight{
+    text-align:right;
+}
+
+.alignMiddle{
+    text-align:center;
+}
+
+/* DAILY WAGE SUMMARY PANEL */
+.dailyWageSummaryOuter {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.dailyWageSummaryInner {
+    text-align: center;
+    max-width:600px;
+}
+
+
+
+
+
+
+
+
+
+.fullScreen {
+    clear: both;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    /*background-color:green;
+    border:1px red solid;*/
+}
+
+.centeredScreen {
+    clear: both;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 700px;
+    /*background-color:red;
+    border: 1px yellow solid;*/
+}
+
+
+.addUserTitle{
+    position:relative;
+    padding:0px;
+    margin:0px 0px 15px 0px;
+    text-align:left;
+    font-size:18px;
+    text-decoration:underline;
+    font-weight:bold;
+
+}
+
+.addUserBlock, .startBlock{
+    clear:both;
+}
+
+.addUserBlock input, select{
+    padding:6px;
+    margin:8px;
+}
+
+.addUserBlock span {
+    position:relative;
+    top:5px;
+    }
+
+.addUserLabel, .startLeft {
+    float: left;
+    min-width: 150px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+    .addUserLabel a:hover, .startLeft a:hover, .addUserEntry a:hover {
+        background-color: #8dc63f;
+    }
+
+
+.addUserEntry, .startRight {
+    float: left;
+}
+
+.startPage{
+    margin-top:10px;
+}
+
+.startLeftBorder{
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    min-width: 230px;
+}
+
+.reportsBorder {
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    min-width: 230px;
+}
+
+.startRight input, select {
+    padding: 6px;
+    margin: 8px;
+}
+
+.startLeft span {
+    position: relative;
+    top: 5px;
+}
+
+.addUserMinWidth {
+    min-width:250px;
+}
+
+.addUserMinWidth a{
+    text-transform:none;
+}
+
+.welcomeColumnName{
+    min-width:250px;
+    min-height:45px;
+}
+
+.welcomeColumnRoute {
+    min-width: 150px;
+    min-height: 45px;
+    text-align:center;
+}
+
+
+.welcomeColumnAssign {
+    min-width: 150px;
+    min-height: 45px;
+    text-align:center;
+}
+
+
+.jobsRouteColumn {
+    text-align: center !important;
+    min-width: 150px;
+}
